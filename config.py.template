@@ -1,0 +1,32 @@
+
+# Copy and modify this file
+
+regions = ('US', 'GB')
+
+supported = {
+
+    # Supported versions
+    'chrome': 57,
+    'and_chr': 57,
+    'safari': 10.1,
+    'ios_saf': 10.3,
+    'firefox': 52,
+    'and_ff': 52,
+    'edge': 17,
+
+    # All versions known to not work
+    'ie': None,
+    'ie_mob': None,
+    'op_mini': None,
+
+    # Not concerned about (unknown if will work or not)
+    # 'opera': None,
+    # 'op_mob': None,
+    # 'android': None,
+    # 'samsung': None,
+    # 'bb': None,
+    # 'kaios': None,
+    # 'baidu': None,
+    # 'and_uc': None,
+    # 'and_qq': None,
+}
